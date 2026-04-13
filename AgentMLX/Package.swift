@@ -43,5 +43,9 @@ let package = Package(
             plugins: [
                 .plugin(name: "GenerateModelSources")
             ]),
+        .testTarget(
+            name: "AgentMLXTests",
+            dependencies: ["AgentMLX"]
+        ),
     ]
 )

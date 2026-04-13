@@ -1,6 +1,6 @@
 import Foundation
 
-enum AgentError: Error {
+enum AgentError: Error, Equatable {
     case noChatSession
     case noModelAvailable
 }
